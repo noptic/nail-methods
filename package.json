@@ -1,0 +1,42 @@
+{
+    "name": "nail-methods",
+    "description": "Adds methods to a nail classes",
+    "version": "0.0.1-alpha1",
+    "homepage": "https://github.com/noptic/nail-methods",
+    "author": {
+        "name": "noptic",
+        "email": "oliver@ananit.de"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/noptic/nail-methods.git"
+    },
+    "bugs": {
+        "url": "https://github.com/noptic/nail-methods/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/noptic/nail-methods/blob/master/LICENSE-MIT"
+        }
+    ],
+    "main": "lib/nail-methods",
+    "engines": {
+        "node": ">= 0.6.0"
+    },
+    "scripts": {
+        "test": "grunt nodeunit"
+    },
+    "dependencies": {
+        "underscore": "*"
+    },
+    "devDependencies": {
+        "grunt-contrib-coffee": "0.4.0rc7",
+        "grunt-contrib-concat": "0.1.2rc6",
+        "grunt-contrib-uglify": "0.1.1rc6",
+        "grunt-contrib-nodeunit": "0.1.2rc6",
+        "grunt-contrib-watch": "0.2.0rc5",
+        "grunt": "0.4.0rc7",
+        "nail-core": "*"
+    }
+}
