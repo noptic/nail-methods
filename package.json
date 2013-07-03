@@ -1,10 +1,10 @@
 {
     "name": "nail-methods",
     "description": "Adds methods to a nail classes",
-    "version": "0.0.1-alpha1",
+    "version": "0.1.0alpha",
     "homepage": "https://github.com/noptic/nail-methods",
     "author": {
-        "name": "noptic",
+        "name": "Oliver Anan",
         "email": "oliver@ananit.de"
     },
     "repository": {
@@ -37,6 +37,6 @@
         "grunt-contrib-nodeunit": "0.1.2rc6",
         "grunt-contrib-watch": "0.2.0rc5",
         "grunt": "0.4.0rc7",
-        "nail-core": "*"
+        "nail-core": "0.1.0alpha1"
     }
 }
